@@ -1,0 +1,58 @@
+header {
+    background: url("img/head_photo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 950px;
+    position: relative;
+    .header__logo-container {
+        padding-top: 56px;
+    }
+    .logo-container__svg-logo {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='41px' height='41px'%3E%3Cpath fill-rule='evenodd' fill='rgb(255, 255, 255)' d='M20.500,41.001 C9.196,41.001 -0.001,31.804 -0.001,20.500 C-0.001,9.196 9.196,-0.001 20.500,-0.001 C31.804,-0.001 41.001,9.196 41.001,20.500 C41.001,31.804 31.804,41.001 20.500,41.001 ZM20.500,3.166 C10.942,3.166 3.166,10.942 3.166,20.500 C3.166,30.058 10.942,37.834 20.500,37.834 C30.058,37.834 37.834,30.058 37.834,20.500 C37.834,10.942 30.058,3.166 20.500,3.166 ZM20.500,28.389 C16.150,28.389 12.611,24.850 12.611,20.500 C12.611,16.150 16.150,12.611 20.500,12.611 C24.850,12.611 28.389,16.150 28.389,20.500 C28.389,24.850 24.850,28.389 20.500,28.389 ZM20.500,15.778 C17.896,15.778 15.777,17.896 15.777,20.500 C15.777,23.104 17.896,25.222 20.500,25.222 C23.104,25.222 25.222,23.104 25.222,20.500 C25.222,17.896 23.104,15.778 20.500,15.778 Z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        width: 41px;
+        height: 41px;
+    }
+    .logo-container__title-logo {
+        font-family: "Merriweather", serif;
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+        transform: matrix(0.87301026510802, 0, 0, 0.86666666666667, 0, 0);
+        -moz-transform: matrix(0.87301026510802, 0, 0, 0.86666666666667, 0, 0);
+        -webkit-transform: matrix(0.87301026510802, 0, 0, 0.86666666666667, 0, 0);
+        -ms-transform: matrix(0.87301026510802, 0, 0, 0.86666666666667, 0, 0);
+        font-style: italic;
+        position: relative;
+        top: 7px;
+        left: 8px;
+    }
+    .header__main-block {
+        margin-top: 356px;
+    }
+    .header__title {
+        font-size: 60px;
+        color: rgb(255, 255, 255);
+    }
+    .header__subtitle {
+        font-size: 13px;
+        margin-top: 26px;
+        margin-left: 5px;
+        color: rgb(255, 255, 255);
+        line-height: 2;
+        max-width: 440px;
+    }
+    img {
+        position: relative;
+        right:0;
+        bottom:-150px;
+        @media screen and (max-width:1130px) {
+            width: 350px;
+            bottom:-350px;
+        }
+        @media screen and (max-width:800px) {
+            display:none;
+        }
+    }
+}

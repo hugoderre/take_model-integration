@@ -1,0 +1,19 @@
+/*
+Theme Name: Take
+Theme URI: https://hugoderre.fr/take/
+Author: Hugo Derre
+Author URI: https://hugoderre.fr/
+Description: An introduction to Wordpress integration.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: take
+
+*/
+
+
+@import '../plugins/sass/bootstrap/bootstrap.scss';
+
+@import 'base';
+@import 'layout';
+@import 'modules/_modules';

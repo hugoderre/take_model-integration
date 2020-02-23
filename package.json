@@ -1,0 +1,16 @@
+{
+  "name": "take",
+  "version": "1.0.0",
+  "description": "Une intégration from scratch sur Wordpress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^4.4.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
